@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link href="design.css" rel="stylesheet" type="text/css">
+    <title>Design</title>
+
+</head>
+
+<body>
+    <h2>Photo Application</h2>
+    <!-- Section for border -->
+    <main>
+        <section>
+            <img class="image-small thick-light-blue-border" src="images/nature.jpeg"></img>
+            <div class="silver-background">
+                <p>Things cats love:</p>
+                <ul>
+                    <li>cat nip</li>
+                    <li>laser pointers</li>
+                    <li>lasagna</li>
+                </ul>
+                <p>Top 3 things cats hate:</p>
+                <ol>
+                    <li>flea treatment</li>
+                    <li>thunder</li>
+                    <li>other cats</li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- Section for padding, margin-->
+        <section>
+            <div class="box box-yellow">
+                <h2 class="box-heading">Box</h2>
+                <div class="box box-blue">Blue Box</div>
+                <div class="box box-red">Red Box</div>
+                <div class="box box-violet">Violet Box</div>
+            </div>
+        </section>
+
+        <!-- Section for css override -->
+        <section>
+            <h1>pink-txt overrode the orange because pink-txt is defined last in css</h1>
+            <div>
+                <h2 class="orange-txt pink-txt">"Hello World" message override with class</h2>
+            </div>
+        </section>
+
+        <!-- Section for css override -->
+        <section>
+            <h1>blue-txt overrode the orange because blue-txt is defined in id. ID has the first priority</h1>
+            <div>
+                <h2 class="orange-txt pink-txt" id="blue-txt">"Hello World" message override with id</h2>
+            </div>
+        </section>
+
+        <!-- Section for css override -->
+        <section>
+            <h1>inline css overrode other classes and id because inline css has first priority</h1>
+            <div>
+                <h2 class="orange-txt pink-txt" id="blue-txt" style="color:white;">"Hello World" message override with
+                    inline css</h2>
+            </div>
+        </section>
+
+        <!-- Section for css override -->
+        <section>
+            <h1>"!important" css overrode other classes and id and inlines because "!important" css has first priority</h1>
+            <div>
+                <h2 class="black-txt orange-txt pink-txt" id="blue-txt" style="color:white;">"Hello World" message
+                    override with
+                    inline css</h2>
+            </div>
+        </section>
+
+        <!-- Section for css variable -->
+        <section>
+            <h1> :root is using to declare global css variables </h1>
+            <div class="red-variable-box"></div>
+        </section>
+
+    </main>
+</body>
+
+</html>

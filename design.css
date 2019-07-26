@@ -1,0 +1,110 @@
+/*
+* border-color: solid // Solid border color
+* border-radius: 10px or 50% It will round the corner
+* padding: 10px 50px 25px; //Top: 10, Left & Right 50, Bottom 25
+* padding: 10px 50px; //Top and Bottom 10, Left and Right 50
+* :root - can be useful for declaring global CSS variables;
+*/
+body {
+    background-color: dimgray;
+}
+
+h1 {
+    font-family: Lobster, monospace;
+    font-weight: bold;
+}
+
+.image-small {
+    width: 100px;
+    height: auto;
+}
+
+/* Section for border */
+.thick-light-blue-border {
+    border-color: lightblue;
+    border-width: 5px;
+    border-style: solid; /* Solid border color */
+    border-radius: 50%; /* It will round the corner. If border-radius:50% then the result is circle*/
+
+}
+
+.silver-background {
+    background-color: lightblue;
+}
+
+/* Section for padding, margin */
+.box {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.box-heading {
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+.box-yellow {
+    background-color: yellowgreen;
+    padding: 20px;
+    text-align: center;
+}
+
+.box-blue {
+    background-color: blue;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    text-align: center;
+}
+
+.box-red {
+    background-color: crimson;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    text-align: center;
+}
+
+.box-violet {
+    background-color: violet;
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Section for css override */
+.black-txt {
+    color: black !important;
+}
+
+#blue-txt {
+    color: blue;
+}
+
+.orange-txt {
+    color: orange;
+}
+
+.pink-txt {
+    color: pink;
+}
+
+
+/* Section for css variable */
+:root {
+    --red-color: blue;
+}
+
+.red-variable-box {
+    background-color: var(--red-color);
+    height: 200px;
+    width: 200px;
+}
