@@ -8,10 +8,74 @@
 
     <title>Card</title>
 
+    <style type="text/css">
+    	:root {
+    		background-color: #FFF;   	
+    	}
+
+    	body {
+    		font-family: monospace;
+    	}
+
+    	h4 {
+    		font-size: 14px;
+    		text-align: center;
+    		padding: 10px;
+            background-color: rgba(45, 45, 45, 0.1);
+            text-transform: capitalize;
+    	}
+
+    	p {
+    		text-align: justify;
+            line-height: 20px;
+    	}
+
+    	.card {
+    		width: 245px;
+    		border: 1px solid #ccc;
+    		border-radius: 5px;
+    		margin: 5px 5px;
+    	}
+
+    	.cardtext {
+    		padding: 4px;
+    	}
+
+    	.cardlink {
+    		padding: 4px;
+    	}
+
+        #thumbnail {
+            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        }
+
+        .links {
+            color: black;
+            opacity: 0.7;
+        }
+
+        a.links:hover {
+            color: blue;
+        }
+
+    </style>
 </head>
 
 <body>
-    
+	<div class="card" id="thumbnail">
+		<div class="cardcontent">
+			<div class="cardtext">
+				<h4>alphabet</h4>
+                <hr>
+				<p><em><s>Google</s> Alphabet was founded by Larry Page and Sergey Brin while they were <u>Ph.D. students</u> at <strong>Stanford University</strong>.</em></p>
+			</div>
+
+			<div class="cardlink">
+				<a href="" class="links">Sergey Brin</a>
+				<a href="" class="links">Larry Page</a>
+			</div>
+		</div>
+	</div>	
 </body>
 
 </html>

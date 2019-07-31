@@ -1,0 +1,10 @@
+* border-color: solid // Solid border color
+* border-radius: 10px or 50% It will round the corner
+* padding: 10px 50px 25px; //Top: 10, Left & Right 50, Bottom 25
+* padding: 10px 50px; //Top and Bottom 10, Left and Right 50
+* :root - can be useful for declaring global CSS variables;
+* opacity - Transparancy for an item. eg: opacity: 0.7
+* text-transform - It is used to change the appearence of text. eg: text-transform: capitalize; (Hello World).
+* line-height - Adjust the height of each line in paragraph. eg: line-height: 25px;
+* position:relative - Adjust the position of element.
+* position:absolute - Adjust the position of child element.
