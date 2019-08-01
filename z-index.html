@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Z-index</title>
+    <style>
+        div {
+            width: 60%;
+            height: 200px;
+        }
+        .first {
+            background-color: red;
+            border: 2px solid #CCC;
+            position: absolute;
+            z-index: 2;
+        }
+        .second {
+            background-color: blue;
+            border: 2px solid #CCC;
+            position: absolute;
+            top: 100px;
+            left: 20px;
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Z-index</h2>
+    <!-- Section for border -->
+    <main>
+     <div class="first"></div>
+     <div class="second"></div>
+    </main>
+</body>
+
+</html>
