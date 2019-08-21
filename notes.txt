@@ -8,7 +8,7 @@
 * line-height - Adjust the height of each line in paragraph. eg: line-height: 25px;
 * position:relative - Adjust the position of element.
 * position:absolute - Adjust the position of child element.
-* margin:auto - Item will move to the center of the screen. Note: If we have set "margin: auto" to the image, we must set "display: block" to the image.
+* margin:auto - Item will move to the center of the screen. Note: If we set "margin: auto" to the image then, we must set "display: block" to the image.
 * transform: scale(1.5) - Transform and item size.
 ----------------------------------------------------------------------------------------------------
 
