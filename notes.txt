@@ -10,7 +10,7 @@
 * position:absolute - Adjust the position of child element.
 * margin:auto - Item will move to the center of the screen. Note: If we set "margin: auto" to the image then, we must set "display: block" to the image.
 * transform: scale(1.5) - Transform and item size.
-----------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
 
 /* Easy to adjust tone of color */
 * background-color: hsl(180, 80%, 25%);
@@ -25,5 +25,14 @@
     );
 
 Note:- linear-gradient and repeating-linear-gradient function are very similar. Major difference that it repeats the specified gradient pattern.
-Note:- background is a short hand for background-color, background-image etc
----------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
+
+Css backgrounds
+---------------
+css background are,
+background-color
+background-image
+background-repeat
+background-position
+background-attachment ( This property specifies whether the background image should scroll or be fixed )
+
