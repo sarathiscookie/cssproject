@@ -27,12 +27,6 @@
 Note:- linear-gradient and repeating-linear-gradient function are very similar. Major difference that it repeats the specified gradient pattern.
 --------------------------------------------------------------------------------------------------------------------------------
 
-Css backgrounds
----------------
-css background are,
-background-color
-background-image
-background-repeat
-background-position
-background-attachment ( This property specifies whether the background image should scroll or be fixed )
+
+
 
