@@ -1,0 +1,69 @@
+/* Each browser has their own default margins.*/
+/* We can set default margin and padding to zero of all the elements*/
+* {
+	margin: 0;
+	padding: 0;
+	/* The box-sizing property allows us to include the padding and border in an element's total width and height. */
+	box-sizing: border-box;
+}
+
+/* When we set float left on .blog-posts and .other-posts. On right side of the browser .author-box also attached with .other-posts. */
+/* To separate .other-posts and .author-box we can use .clearfix */
+.clearfix {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+body {
+	font-family: Helvetica Neue, Arial;
+	font-size: 18px;
+}
+
+h1, h2 {
+	color: green;
+}
+
+h1 {
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+.main-text {
+	text-align: justify;
+	margin-bottom: 10px;
+}
+
+.author-text {
+	font-size: 22px;
+}
+
+.container {
+	width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	/* OR */
+	/*margin: 20px auto 0 auto;*/
+}
+
+.blog-posts {
+	width: 75%;
+	float: left;
+	padding-right: 30px;
+}
+
+.other-posts {
+	width: 25%;
+	float: left;
+}
+
+.author-box {
+	padding-top: 20px;
+	border-top: 1px solid #808088;
+}
