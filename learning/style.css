@@ -3,12 +3,24 @@
 * {
 	margin: 0;
 	padding: 0;
-	/* The box-sizing property allows us to include the padding and border in an element's total width and height. */
-	box-sizing: border-box;
+	box-sizing: border-box; /* Exactly the width we defined */
 }
 
 /* When we set float left on .blog-posts and .other-posts. On right side of the browser .author-box also attached with .other-posts. */
 /* To separate .other-posts and .author-box we can use .clearfix */
+/* position: relative and position: absolute. A parent element (.blog-posts) must be a "reative" positioned element then only child element (.date) positioned is "absolute" */
+
+/* Some Tips */
+/*Use a font size b/w 15 and 25 px
+1: Big font sizes for big headlines banner eg: 60px to 90px. Small headlines banner 32px.
+2: Use line spaces b/w 120 and 150 %
+3: 45 to 90 characters per line
+4: Sans-serif - Open Sans, Lato, Raleway, Monsterrat, PT Sans.
+5: Sans-serif is a good fonts. This font uses modern websites. It is clean and simple.
+6: Serif typeface - Cardo, Merriweather, PT Serif.
+7: Serif typeface is also a good font. This font uses for traditional purpose and story telling.
+*/
+
 .clearfix {
 	content: "";
 	display: table;
@@ -41,6 +53,9 @@ h2 {
 
 .author-text {
 	font-size: 22px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 30px;
 }
 
 .container {
@@ -56,6 +71,18 @@ h2 {
 	width: 75%;
 	float: left;
 	padding-right: 30px;
+	position: relative; /* Parent position element must be relative */
+}
+
+.date {
+	position: absolute; /* Child position element must be absolute */
+	top: 10px;
+	right: 30px;
+}
+
+.blog-posts img{
+	width: auto;
+	height: 150px;
 }
 
 .other-posts {
@@ -67,3 +94,15 @@ h2 {
 	padding-top: 20px;
 	border-top: 1px solid #808088;
 }
+
+.other {
+	margin-top: 40px;
+}
+
+.author-box img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+    float: left;
+}
+
